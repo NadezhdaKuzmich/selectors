@@ -1,0 +1,56 @@
+* {
+    text-align: justify;
+    font-family: inherit;
+}
+dt {
+    font-size: 20px;
+}
+h1,
+h2 {
+    text-align: center;
+}
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:#F8F8FF;
+}
+p {
+    text-indent: 25px;
+}
+header,
+h2 {
+   color:#6699FF;
+}
+#text {
+    color:#3366CC;
+}
+.topic {
+    color:#99CCCC;
+}
+.two {
+    color:#6495ED;
+}
+.topic.two {
+    color:#20B2AA;
+}
+ul li {
+    color:#009999;
+}
+p > b {
+    color:#9999FF;
+    font-size: 20px;
+}
+dt + dd {
+    color:#4682B4;
+}
+h2 ~ p {
+    color:#084ca5;
+}
+[title=psevdo-element] {
+    color: #3366FF;
+    font-size: 20px;
+}
+p::first-letter {
+    color:#8080f9;
+    font-size: 20px;
+}
